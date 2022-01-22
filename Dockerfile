@@ -1,4 +1,4 @@
 FROM openjdk:11
 EXPOSE 8080
-ADD 19127443-19127467 /sqlite/
+ADD app.py app/
 CMD python app.py
