@@ -1,5 +1,5 @@
 import os
 import webbrowser
-filename = 'file://'+os.getcwd()+'/' + 'templates/index.html'
+filename = 'file://'+os.getcwd()+'/' + 'index.html'
 webbrowser.open_new(filename)
 webbrowser.open(filename)
